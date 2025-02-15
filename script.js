@@ -11,7 +11,7 @@ let users = JSON.parse(localStorage.getItem("users")) || [];
 let currentUserId = null;
 const validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
-// Functions
+
 function renderTable() {
   tableBody.innerHTML = "";
   for (let i = 0; i < users.length; i++) {
@@ -130,8 +130,8 @@ function deleteUser(userId) {
   renderTable();
 }
 
-// Event Listeners
+
 addBtn.addEventListener("click", addUser);
 
-// Initialize table
+
 renderTable();
