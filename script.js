@@ -1,4 +1,4 @@
-// Variables
+
 const nameInput = document.getElementById("name-input");
 const emailInput = document.getElementById("email-input");
 const addBtn = document.getElementById("add-btn");
